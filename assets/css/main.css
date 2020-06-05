@@ -1,0 +1,11 @@
+body {
+    background-color: teal;
+}
+#judul{
+    margin-right: 50px;
+    margin-left: 50px;
+    color: beige;
+}
+#timestamp{
+    margin-right: 20px;
+}
