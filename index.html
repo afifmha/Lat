@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+        counter-reset: mycount; /* Set the counter to 0 */
+        }
+        .mycount:before{
+        counter-increment: mycount; /* Increment the counter */
+        content: "File " counter(mycount) ". "; /* Display the counter */
+        }
+    </style>
+    <title>Index</title>
+</head>
+
+<body>
+    <div id="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <a>Nama</a>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="mycount"><a href="Biodataku.html">Biodataku</a></td>
+                </tr>
+                <tr>
+                    <td class="mycount"><a href="Bio.html">Biodata Bebek</a></td>
+                </tr>
+                <tr>
+                    <td class="mycount"><a href="Gambar.html">Gambar</a></td>
+                </tr>
+                <tr>
+                    <td class="mycount"><a href="Link.html">Link</a></td>
+                </tr>
+                <tr>
+                    <td class="mycount"><a href="Form.html">Form</a></td>
+                </tr>
+                <tr>
+                    <td class="mycount"><a href="Paragraf.html">Paragraf</a></td>
+                </tr>
+                <tr>
+                    <td class="mycount"><a href="Heading.html">Heading</a></td>
+                </tr>
+                <tr>
+                    <td class="mycount"><a href="Tabel.html">Tabel</a></td>
+                </tr>
+                <tr>
+                    <td class="mycount"><a href="Table2.html">Tabel 2</a></td>
+                </tr>
+                <tr>
+                    <td class="mycount"><a href="TextFormatting.html">Text Format</a></td>
+                </tr>
+                <tr>
+                    <td class="mycount"><a href="FileAudioVideo.html">File Audio & Video</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
