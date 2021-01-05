@@ -1,3 +1,3 @@
-# Lat
+# Readme
 
 Repository untuk latihan
